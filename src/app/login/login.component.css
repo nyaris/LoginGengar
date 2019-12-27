@@ -1,0 +1,22 @@
+#ohloko {
+    width: 90%;
+    font-family: myfont;
+  margin-bottom: 29px;
+  font-size: 40px;
+  
+}
+#login {
+    width: 20%;
+    color: rgb(146, 13, 13);
+}
+
+#toolbar{
+    background-color: rgb(68, 26, 77);
+    
+}
+
+@font-face {
+    font-family: myfont;
+    src: url("/assets/images/Pokemon Hollow.ttf");
+    
+}

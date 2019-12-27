@@ -1,0 +1,15 @@
+.example-card{
+    width: 16%;
+    margin: auto;
+    margin-top: 10%;
+    opacity: .9;
+    background-color: rgb(101, 81, 109);
+    text-align: center;
+    height: 300px;
+   
+}
+
+#button{
+    background-color: rgb(110, 37, 101);
+    
+}
