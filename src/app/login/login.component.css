@@ -1,8 +1,11 @@
 #ohloko {
     width: 90%;
     font-family: myfont;
-  margin-bottom: 29px;
-  font-size: 40px;
+    margin-bottom: 29px;
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+    left: -20px;
   
 }
 #login {
@@ -11,7 +14,8 @@
 }
 
 #toolbar{
-    background-color: rgb(68, 26, 77);
+    background-color: rgb(68, 26, 77);   
+     
     
 }
 
@@ -19,4 +23,11 @@
     font-family: myfont;
     src: url("/assets/images/Pokemon Hollow.ttf");
     
+}
+#D{
+    font-weight: bold;
+}
+
+#T{
+    font-weight: bold;
 }

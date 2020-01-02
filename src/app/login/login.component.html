@@ -1,26 +1,27 @@
 <mat-toolbar id="toolbar" color="primary">
     <mat-toolbar-row>
-        <span id="ohloko">Gengar</span>
+      
+        <span id="ohloko"><img src="/assets/images/gg.png"></span>
         <span class="example-fill-remaining-space"></span>
         <span class="align-center"></span>
         <span class="example-spacer"></span>
-        <button mat-button>About</button>
-        <button mat-button>Contact</button>
+        <button mat-button id="D">Dúvidas?</button>
+        <button mat-button id="T">Termos de Uso</button>
         <button mat-icon-button [matMenuTriggerFor]="menu">
       <mat-icon>more_vert</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
       <button mat-menu-item>
         <mat-icon>dialpad</mat-icon>
-        <span>Redial</span>
+        <span>Ligar</span>
       </button>
       <button mat-menu-item disabled>
-        <mat-icon>voicemail</mat-icon>
-        <span>Check voicemail</span>
+        <mat-icon>movie_filter</mat-icon>
+        <span>Desejo ser Premium</span>
       </button>
       <button mat-menu-item>
         <mat-icon>notifications_off</mat-icon>
-        <span>Disable alerts</span>
+        <span>Desativar Alertas</span>
       </button>
     </mat-menu>
      </mat-toolbar-row>
